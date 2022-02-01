@@ -1,10 +1,10 @@
-import Memorize from "./components/memorizacion/Memorize";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import CallbalckHook from './components/memorizacion/CallbalckHook';
 
 function App() {
   return (
     <div className="App">
-      <Memorize />
+      <CallbalckHook />
     </div>
   );
 }
